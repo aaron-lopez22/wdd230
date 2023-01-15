@@ -32,6 +32,7 @@ main p {
 .card {
     border: 15px solid #98B9AB;
     margin: 15px;
+    background: #F8F0E8;
     
 }
 footer {
