@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Oxygen&family=Saira+Semi+Condensed:wght@300;400&family=Source+Serif+Pro&family=Unica+One&display=swap');
+
+
+header {
+    background-color: #98B9AB;
+    text-align: center;
+    font-family: "Source Serif Pro";
+    padding: 25px;
+}
+body {
+    margin: 0;
+    background-color: #F8F0E8;
+    font-size: 1.2em;
+  }
+main {
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 25px;
+}
+#content {
+    background-color: white;
+    max-width: 1500px;
+    margin: 0% auto;
+   
+}
+main p {
+    padding: 25px;
+}
+#photo {
+    
+}
+.card {
+    border: 15px solid #98B9AB;
+    margin: 15px;
+    
+}
+footer {
+
+    background-color: #98B9AB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2em;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 25px;
+    }
+main h1, h2, h3, h4 {
+    font-family: "Source Serif Pro";
+    font-size: 1.4em;
+}
+main p{
+    font-family: "Oxygen";
+    font-weight: 600;
+}
