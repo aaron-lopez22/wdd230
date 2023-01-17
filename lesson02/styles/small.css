@@ -1,4 +1,5 @@
-
+@media only screen and (max-width: 400px) {
+    
 @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Oxygen&family=Saira+Semi+Condensed:wght@300;400&family=Source+Serif+Pro&family=Unica+One&display=swap');
 
 
@@ -16,8 +17,8 @@ body {
 main {
     text-align: center;
     padding: 25px;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 #content {
     background-color: white;
@@ -31,6 +32,7 @@ main p {
     border: 15px solid #98B9AB;
     margin: 15px;
     background: #F8F0E8;
+    max-width: 100%;
 
      
 }
@@ -47,9 +49,14 @@ footer {
     }
 main h1, h2, h3, h4 {
     font-family: "Source Serif Pro";
-    font-size: 1.4em;
+    font-size: 1em;
 }
 main p{
     font-family: "Oxygen";
     font-weight: 600;
+}
+.photo {
+    max-width: 100%;
+}
+
 }
