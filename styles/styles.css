@@ -43,3 +43,7 @@ footer {
     span {
         color: black;
     }
+
+body p {
+    font-size: 1.5em;
+}
