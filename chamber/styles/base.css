@@ -1,0 +1,193 @@
+body {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+.content{
+    margin: 0;
+}
+nav {
+    text-align: right;
+    align-content: right;
+}
+
+.date {
+    float: right;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: #14274E;
+    color: white;
+    border: 2px black;
+    width: 100%;
+
+
+}
+#facebook {
+    display: flex;
+    float: right;
+    width: 50px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: #848A9A;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    margin: 5px;
+}
+
+
+
+footer img {
+    width: 150px;
+}
+
+header h1,
+p {
+    width: 100%;
+    font-size: 1.2em;
+    margin: 10px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.headings {
+
+    margin: -10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav button {
+    font-size: 2rem;
+    color: black;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+}
+
+nav ul li.active a {
+    background-color: antiquewhite;
+    color: black;
+}
+
+
+nav ul li a:hover {
+    background-color: white;
+}
+
+.Event {
+    background: #14274E;
+    padding: 100px;
+    color: white;
+    margin: 10px;
+}
+
+.Weather {
+    background: #14274E;
+    padding: 100px;
+    color: white;
+    margin: 10px;
+}
+
+.Join {
+    background: #14274E;
+    padding: 100px;
+    color: white;
+    margin: 10px;
+}
+
+.Hero {
+    background: #14274E;
+    padding: 100px;
+    color: white;
+    margin: 10px;
+}
+
+
+.New-Release {
+    background: #14274E;
+    padding: 100px;
+    color: white;
+    margin: 10px;
+}
+
+.spotlight1 {
+    background: #14274E;
+    padding: 100px;
+    color: white;
+    margin: 10px;
+}
+
+.spotlight2 {
+    background: #14274E;
+    padding: 100px;
+    color: white;
+    margin: 10px;
+}
+
+.spotlight3 {
+    background: #14274E;
+    padding: 100px;
+    color: white;
+    margin: 10px;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+
+
+#hamburgerbtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerbtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerbtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerbtn.open span:nth-child(2) {
+    display: block;
+}
+
+footer {
+    background: #848A9A;
+    color: white;
+    font-size: 1.0em;
+}
+#lastModified {
+	text-align: center;
+	font-size: smaller;
+}
