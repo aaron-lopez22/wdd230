@@ -204,3 +204,10 @@ footer {
 	text-align: center;
 	font-size: smaller;
 }
+#textButton {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+}
