@@ -26,8 +26,7 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 
 // Select the HTML element to manipulate
-const date1 = document.querySelector("#date1");
-const message = document.querySelector("#emessage");
+
 
 
 document.querySelector(
