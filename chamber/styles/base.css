@@ -201,13 +201,22 @@ footer {
     font-size: 1.0em;
 }
 #lastModified {
+    font-family: "Sanchez";
 	text-align: center;
-	font-size: smaller;
+	font-size: medium;
+    margin: 0;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
 }
+
 #textButton {
     position: relative;
     background-color: black;
     color: white;
     padding: 15px 32px;
     display: inline-block;
+}
+
+.bottom {
+    grid-column: 1/4;
 }

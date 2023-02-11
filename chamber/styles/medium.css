@@ -1,41 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Nunito+Sans:wght@300&family=Sanchez:ital@1&display=swap');
 @media only screen and (min-width: 32rem) {
+   
+
 
     nav button {
         display: none;
     }
 
     nav ul#primarynav {
-        display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid black;
+        display: grid;
+        
     }
 
     nav ul li a {
+        width: 250px;
         border: none;
-        border-right: 1px solid black;
+      
+    }
+
+    #primarynav {
+        font-family: "Sanchez";
+        font-size: 1.5rem;
+        padding: 25px;
+        text-align: center;
+        align-self: center;
     }
 
 
 
+    #facebook img{
+        width: 100%;
+        height: 60px;
+    }
+
+    .date {
+        grid-column: 1/4;
+        font-family: "Sanchez";
+    }
+
     header {
-        display: flex;
-        flex-direction: column;
+        font-family: "Sanchez";
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         text-align: center;
     }
 
     main {
         display: grid;
+        grid-template-columns: 1fr 1fr;
 
     }
 
-    nav ul li a {
-        padding: .5rem 1rem;
-    }
+
 
     nav ul#primarynav {
         display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid black;
     }
 
     .left-column {
@@ -93,14 +113,12 @@
     nav {
         display: flex;
     }
+
     #lastModified {
         text-align: center;
         font-size: smaller;
     }
-    #facebook {
-        display: flex;
-        float: right;
-        width: 50px;
-    }
-    
+
+ 
+
 }

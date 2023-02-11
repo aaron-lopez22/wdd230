@@ -1,4 +1,10 @@
 
+
+document.querySelector(
+	"#lastModified"
+).textContent = `Last Modification: ${document.lastModified}`;
+
+
 function toggleMenu(){
 	document.getElementById("primarynav").classList.toggle("open");
 	document.getElementById("hamburgerbtn").classList.toggle("open");
@@ -29,6 +35,3 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 
 
-document.querySelector(
-	"#lastModified"
-).textContent = `Last Modification: ${document.lastModified}`;
