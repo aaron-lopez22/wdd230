@@ -1,7 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Nunito+Sans:wght@300&family=Sanchez:ital@1&display=swap');
+
 @media only screen and (min-width: 32rem) {
-   
+
 
 
     nav button {
@@ -10,13 +10,21 @@
 
     nav ul#primarynav {
         display: grid;
-        
+
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     nav ul li a {
-        width: 250px;
-        border: none;
-      
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: black;
+        border-top: 1px solid black;
+
     }
 
     #primarynav {
@@ -27,9 +35,13 @@
         align-self: center;
     }
 
+    nav ul li.active a {
+        background-color: antiquewhite;
+        color: black;
+    }
 
 
-    #facebook img{
+    #facebook img {
         width: 100%;
         height: 60px;
     }
@@ -41,49 +53,41 @@
 
     header {
         font-family: "Sanchez";
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        text-align: center;
-    }
-
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-    }
-
-
-
-    nav ul#primarynav {
         display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        background: #bbb;
+        text-align: center;
+
     }
 
     .left-column {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
         border: 2px solid black;
-        background-color: #848A9A;
+        background-color: #bbb;
     }
 
     .mid-column {
-        display: grid;
-        grid-template-rows: 2fr 1fr;
-        background-color: #848A9A;
+        background-color: #bbb;
         border: 2px solid black;
     }
 
     .right-column {
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        display: flex;
         border: 2px solid black;
-        background-color: #848A9A;
+        background-color: #bbb;
     }
 
 
 
     .spotlight1 {
-        margin-bottom: -10px;
+
         border: 2px solid black;
+    }
+
+    .spotlight3 {
+        display: none;
     }
 
     .Hero {
@@ -111,14 +115,31 @@
     }
 
     nav {
-        display: flex;
+        text-align: right;
+        align-content: right;
     }
 
-    #lastModified {
-        text-align: center;
-        font-size: smaller;
-    }
 
- 
+#lastModified {
+    text-align: center;
+    font-size: smaller;
+}
+
+#hamburgerbtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerbtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerbtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerbtn.open span:nth-child(2) {
+    display: block;
+}
+
 
 }

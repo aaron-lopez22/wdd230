@@ -36,13 +36,18 @@ nav {
     float: right;
     width: 50px;
 }
+
+#facebook img {
+    width: 100%;
+}
+
 header {
     font-family: "Sanchez";
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    background: #848A9A;
+    background: #bbb;
     text-align: center;
 }
 
@@ -57,12 +62,20 @@ footer img {
     width: 150px;
 }
 
+
+header h1 {
+    color: black;
+}
+
+header p {
+    color: black;
+}
+
 header h1,
 p {
     width: 100%;
     font-size: 1.2em;
     margin: 10px;
-    color: white;
 }
 
 .logo {
@@ -151,17 +164,19 @@ nav ul li a:hover {
     background: #14274E;
     padding: 100px;
     color: white;
-    margin: 10px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid black;
 }
 
 .spotlight2 {
     background: #14274E;
     padding: 100px;
     color: white;
-    margin: 10px;
+    margin-top: 0px;
 }
 
 .spotlight3 {
+    display: none;
     font-family: "Sanchez";
     background: #14274E;
     padding: 100px;
@@ -219,4 +234,8 @@ footer {
 
 .bottom {
     grid-column: 1/4;
+}
+
+.Hero img {
+    width: 100%;
 }
