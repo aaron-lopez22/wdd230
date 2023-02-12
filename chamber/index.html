@@ -23,10 +23,10 @@
         <nav>
             <button id="hamburgerbtn"><span>&#9776</span><span>X</span></button>
             <ul id="primarynav">
-                <li class="react"><a href="Discover.html">Discover</a></li>
-                <li class="react"><a href="Directory.html">Directory</a></li>
-                <li class="react"><a href="Join.html">Join</a></li>
-                <li class="react"><a href="contact.html">Contact</a></li>
+                <li class="react"><a href="#">Discover</a></li>
+                <li class="react"><a href="#">Directory</a></li>
+                <li class="react"><a href="#">Join</a></li>
+                <li class="react"><a href="#">Contact</a></li>
             </ul>
         </nav>
         <picture id="facebook">
@@ -35,15 +35,21 @@
         <div class="date"></div>
     </header>
     <main>
+        <div class="banner"></div>
         <div class="left-column">
             <div class="Event"><h1>Gathering at the Park!</h1><h3>Latest meet and greet is happening this Tuesday</h3></div>
-            <div class="Weather"><h1>Weather</h1><h2>Sunny</h2><p>Humidity 75%</p><p>wind 1</p></div>
+            <div class="Weather"><h1>Weather</h1><h2>Light Showers</h2><img src="images/1530390_weather_clouds_cloudy_rain_sunny_icon.png" alt="weather"><p>Humidity 75%</p><p>wind 1</p></div>
             <div class="Join">Join</div>
         </div>
         <div class="mid-column">
             <div class="Hero">
                 <h1>Salt Lake Commerce</h1>
-                <img src="images/saltlake.jpeg" alt="saltlake">
+                <picture class="myphoto">
+                    <source media="(max-width: 200px)" srcset="images/rsz_3wdd230-org_1.jpg">
+                    <source media="(max-width: 500px)" srcset="images/rsz_2wdd230-org_1.jpg">
+                    <source media="(max-width: 800px)" srcset="images/800.jpg">
+                <img src="images/rsz_1wdd230-org_1.jpg" alt="saltlake">
+            </picture>
                 <button id="textButton">
                     Join us!
                   </button>
@@ -52,12 +58,12 @@
                 Laborum, maiores eum? Quasi, optio eos facilis numquam officiis similique quidem consequatur iusto? Ad, similique!</p></div>
         </div>
         <div class="right-column">
-            <div class="spotlight1"><h1>Birthday Parties</h1><h3>"It's a new year for you!"</h3><p>Come Celebrate with our bounce houses</p>
+            <div class="spotlight1"><h1>Birthday Parties</h1><h3>"It's a new year for you!"</h3><p>Come Celebrate with our bounce houses</p><img src="images/212574291642998059-128.png" alt="birthday_balloons">
             <p>contact@birthday.com</p>
         <p>(801)-555-5554</p></div>
             <div class="spotlight2"><h1>Concrete</h1><h3>Ready? We are here to pour!</h3><p>When you are ready we have the concrete and professionals to make whatever is needed in an efficient and professional manner.</p>
-            <p>concrete@contact.com</p><p>(801)-555-5553</p></div>
-            <div class="spotlight3"><h1>Roofing</h1><h3>Tired of waking up to rain drops in your house?!</h3><p>Call us we are available to fix any roofing problems</p><p>roofing@contactus.com</p>
+            <img src="images/5730375.png" alt="concrete"><p>concrete@contact.com</p><p>(801)-555-5553</p></div>
+            <div class="spotlight3"><h1>Roofing</h1><h3>Tired of waking up to rain drops in your house?!</h3><p>Call us we are available to fix any roofing problems</p><img src="images/9171056.png" alt="roofing"><p>roofing@contactus.com</p>
             <p>(801)-555-5552</p></div>
         </div>
     </main>

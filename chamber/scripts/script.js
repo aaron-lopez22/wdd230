@@ -30,8 +30,8 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
-
-// Select the HTML element to manipulate
-
-
-
+//looked at logans javascript for an idea of what I could do. 
+if (now.getDay() == 1 || now.getDay() == 2) {
+	const banner = document.querySelector('.banner');
+	banner.style.display = 'block';
+}

@@ -79,11 +79,27 @@
         background-color: #bbb;
     }
 
-
+    .banner {
+        display: none;
+        margin: auto;
+    }
 
     .spotlight1 {
-
-        border: 2px solid black;
+        font-family: "Sanchez";
+        margin: 5px;
+        border: 1px solid black;
+        padding: 5px;
+    }
+    .spotlight2 {
+        font-family: "Sanchez";
+        border: 1px solid black;
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+    }
+    .spotlight2 img{
+        width: 150px;
+    
     }
 
     .spotlight3 {

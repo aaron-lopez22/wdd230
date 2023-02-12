@@ -17,6 +17,14 @@ nav {
     text-align: right;
     align-content: right;
 }
+.spotlight2 img{
+    width: 150px;
+
+}
+
+.Weather img {
+    width: 150px;
+}
 
 .date {
     font-family: "Sanchez";
