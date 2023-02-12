@@ -1,3 +1,6 @@
+
+
+//used information from codepen still not working as of right now
 var temperature = 36;
 var windSpeed = 3;
 
