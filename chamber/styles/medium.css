@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Nunito+Sans:wght@300&family=Sanchez:ital@1&display=swap');
 
 @media only screen and (min-width: 32rem) {
+    #visits {
+        color: black;
+        font-size: 1.5rem;
+        float: left;
+        padding: 5px;
+    }
 
-
+    .label {
+        font-family: "Sanchez";
+        font-weight: 700;
+       float: left;
+    }
 
     nav button {
         display: none;
@@ -128,6 +138,8 @@
 
     footer {
         display: inline-block;
+        background-color: #bbb;
+        color: black;
     }
 
     nav {
@@ -135,11 +147,15 @@
         align-content: right;
     }
 
-
-#lastModified {
-    text-align: center;
-    font-size: smaller;
-}
+ #lastModified {
+        color: black;
+        font-family: "Sanchez";
+        text-align: center;
+        font-size: larger;
+        margin: 0;
+        border: 1px solid black;
+        padding: 0.5rem;
+    }
 
 #hamburgerbtn span:nth-child(1) {
     display: block;
