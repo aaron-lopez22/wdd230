@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Nunito+Sans:wght@300&family=Sanchez:ital@1&display=swap');
 
 @media only screen and (min-width: 64rem) {
-
+    #visits {
+        color: navy;
+        font-weight: bolder;
+        font-size: larger;
+    }
+    
+    .label {
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+    }
     
     header {
         font-family: "Sanchez";
