@@ -6,18 +6,11 @@ caption {
       color: var(--back);
       font-size: .85rem;
   }
-:root {
-	--back: black(150, 50%, 30%, 1);
-  --back2: hsla(150, 50%, 30%, .5);
-  --foredark: hsla(0,0%,10%,1);
-	--forelight: hsla(0,0%,100%,1);
-	--border: hsl(0,0%,20%);
-	--borderlight: hsl(0,0%,33%);
-	--shadow: hsl(0,0%,50%);
-	--zebra: hsl(0, 0%, 93%, 1);
-}
+
 table {
+    width: 250px;
 	margin: 20px auto;
+    padding: 25px;
 	border: thin solid var(--border);
 	box-shadow: 0 0 7px var(--shadow);
 	border-collapse: collapse;
@@ -26,16 +19,26 @@ table,
 td {
     border: 1px solid #333;
     text-align: center;
+  
+}
+#acme {
+    width: 50px;
+    padding: 25px;
+}
+#black {
+    background-color: black;
 }
 thead {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     background-color: black;
+
 }
 .head {
     background-color: #333;
     padding: 5px;
     border: 2px solid #333;
+    margin: 25px;
 }
 
 .check {
@@ -52,8 +55,12 @@ thead {
     padding: 5px;
 }
 
-
+tr:nth-child(Even) {
+    background-color: grey;
+}
 .feature {
+    color: white;
+    background-color: black;
     font-size: 25px;
     font-weight: bold;
     margin: 0%;
