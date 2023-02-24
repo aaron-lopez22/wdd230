@@ -25,15 +25,18 @@ table {
 table,
 td {
     border: 1px solid #333;
+    text-align: center;
 }
 thead {
     font-size: 30px;
-    float: right;
     color: white;
-    background-color: #333;
-    border: 2px solid black;
+    background-color: black;
 }
-
+.head {
+    background-color: #333;
+    padding: 5px;
+    border: 2px solid #333;
+}
 
 .check {
     font-size: 25px;
@@ -46,6 +49,7 @@ thead {
     font-size: 25px;
     font-weight: bolder;
     color: red;
+    padding: 5px;
 }
 
 
@@ -53,5 +57,5 @@ thead {
     font-size: 25px;
     font-weight: bold;
     margin: 0%;
-    padding: 0%;
+    padding: 25px;
 }
