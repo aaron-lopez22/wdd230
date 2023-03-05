@@ -1,0 +1,76 @@
+{
+    "companies": [
+        {
+            "name": "Big Concrete",
+            "image": "https://images.pexels.com/photos/2469/building-construction-building-site-constructing.jpg?auto=compress&cs=tinysrgb&w=1600",
+            "phone": "555-555-5555",
+            "address": "4800 big concrete BLVD, Utah, Salt Lake City",
+            "website": "bigconcrete",
+            "membership": "NP Membership"
+        },
+        {
+            "name": "Taco Loco",
+            "image": "https://images.pexels.com/photos/8230019/pexels-photo-8230019.jpeg?auto=compress&cs=tinysrgb&w=1600",
+            "phone": "555-555-5555",
+            "address": "4800 Taco Loco, Utah, Salt Lake City",
+            "website": "bigconcrete",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "Cats Lovers",
+            "image": "https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=1600",
+            "phone": "555-555-5555",
+            "address": "4800 Cat Lovers BLVD, Utah, Salt Lake City",
+            "website": "bigconcrete",
+            "membership": "Bronze Membership"
+        },
+        {
+            "name": "Carpet Installers",
+            "image": "https://images.pexels.com/photos/2555533/pexels-photo-2555533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "phone": "555-555-5555",
+            "address": "4800 Carpet Installers BLVD, Utah, Salt Lake City",
+            "website": "bigconcrete",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "Donut Supreme",
+            "image": "https://images.pexels.com/photos/2955820/pexels-photo-2955820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "phone": "555-555-5555",
+            "address": "4800 Donut Supreme BLVD, Utah, Salt Lake City",
+            "website": "bigconcrete",
+            "membership": "Silver Membership"
+        },
+        {
+            "name": "Poster Builders",
+            "image": "https://images.pexels.com/photos/4065183/pexels-photo-4065183.jpeg?auto=compress&cs=tinysrgb&w=1600",
+            "phone": "555-555-5555",
+            "address": "4800 Poster Builders BLVD, Utah, Salt Lake City",
+            "website": "bigconcrete",
+            "membership": "NP Membership"
+        },
+        {
+            "name": "Birthday Parties",
+            "image": "https://images.pexels.com/photos/3534022/pexels-photo-3534022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "phone": "555-555-5555",
+            "address": "4800 Birthday Parties, Utah, Salt Lake City",
+            "website": "bigconcrete",
+            "membership": "Silver Membership"
+        },
+        {
+            "name": "WebDesign",
+            "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1600",
+            "phone": "555-555-5555",
+            "address": "4800 Web Design BLVD, Utah, Salt Lake City",
+            "website": "bigconcrete",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "Flavored Drinks",
+            "image": "https://images.pexels.com/photos/13632441/pexels-photo-13632441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "phone": "555-555-5555",
+            "address": "4800 Flavored Drinks BLVD, Utah, Salt Lake City",
+            "website": "bigconcrete",
+            "membership": "NP Membership"
+        }
+    ]
+}
