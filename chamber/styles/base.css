@@ -1,17 +1,22 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Nunito+Sans:wght@300&family=Sanchez:ital@1&display=swap');
 
+.thanks {
+    display: grid;
+    grid-column: 2/3;
+}
 
 .grid section {
-	flex-direction: column;
-	text-align: center;
+    flex-direction: column;
+    text-align: center;
 }
-.grid section > * {
-	margin: 0.1rem;
+
+.grid section>* {
+    margin: 0.1rem;
 }
+
 article,
 section {
-	margin: 0.5rem;
+    margin: 0.5rem;
 }
 
 section img {
@@ -25,22 +30,25 @@ body {
     flex-direction: column;
     margin: 0;
     background-color: #848A9A;
-    
+
 }
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     text-align: center;
     border: 1px solid #14274E;
 }
+
 .menu {
-	margin: 1rem auto;
-	padding: 0.5rem;
-	text-align: center;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-align: center;
 }
+
 .menu button {
-	padding: 1rem;
-	font-weight: 700;
+    padding: 1rem;
+    font-weight: 700;
     background-color: #bbb;
 }
 
@@ -50,7 +58,7 @@ section {
     text-align: center;
     margin: 15px;
     background-color: #cccaca;
-        color: black;
+    color: black;
 }
 
 section h2 {
@@ -58,14 +66,16 @@ section h2 {
     font-size: 2.5rem;
 }
 
-.content{
+.content {
     margin: 0;
 }
+
 nav {
     text-align: right;
-   
+
 }
-.spotlight2 img{
+
+.spotlight2 img {
     width: 150px;
 
 }
@@ -87,6 +97,7 @@ nav {
 
 
 }
+
 #facebook {
     display: flex;
     float: right;
@@ -271,13 +282,14 @@ footer {
     color: white;
     font-size: 1.0em;
 }
+
 #lastModified {
     font-family: "Sanchez";
-	text-align: center;
-	font-size: medium;
+    text-align: center;
+    font-size: medium;
     margin: 0;
-	border: 1px solid #bbb;
-	padding: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.5rem;
 }
 
 #textButton {
@@ -297,26 +309,31 @@ footer {
 }
 
 .list .not-list {
-	display: none;
+    display: none;
 }
+
 .list {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 .list section {
-	display: grid;
-	margin: 0;
-	padding: 0.25rem;
+    display: grid;
+    margin: 0;
+    padding: 0.25rem;
 }
+
 .list section:nth-child(even) {
-	background-color: #bbb;
+    background-color: #bbb;
 }
+
 /*----form----*/
 
 form {
     text-align: left;
-    
+
 }
+
 form p {
     color: white;
 }
@@ -328,6 +345,7 @@ form fieldset {
     padding: .5rem 2%;
     background-color: #14274E;
 }
+
 form legend {
     font-size: large;
     color: white;
@@ -335,10 +353,11 @@ form legend {
     padding: 0.5rem;
 }
 
-form label.top, form div {
+form label.top,
+form div {
     display: block;
     padding-top: 1rem;
-    color:  white;
+    color: white;
     font-size: .8rem;
 }
 
@@ -353,6 +372,7 @@ form label.top input {
     max-width: 20rem;
     background-color: #bbb;
 }
+
 form label.ml {
     display: block;
     padding: .75rem 0;
@@ -386,5 +406,3 @@ form label.top input:required:valid {
 #business {
     margin: 10px;
 }
-
-

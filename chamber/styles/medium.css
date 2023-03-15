@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Nunito+Sans:wght@300&family=Sanchez:ital@1&display=swap');
 
 @media only screen and (min-width: 32rem) {
+
+    .thanks {
+        display: grid;
+        grid-column: 2/3;
+    }
+
     #visits {
         color: black;
         font-size: 1.5rem;
         float: left;
         padding: 5px;
     }
+
     section img {
         max-width: 100%;
     }
@@ -14,30 +21,34 @@
     .cards section {
         border: 1px solid #14274E;
     }
+
     .cards img {
         width: 391px;
     }
+
     .cards {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         text-align: center;
         border: 1px solid #14274E;
     }
+
     .menu {
         margin: 1rem auto;
         padding: 0.5rem;
         text-align: center;
     }
+
     .menu button {
         padding: 1rem;
         font-weight: 700;
         background-color: #bbb;
     }
-    
+
     .label {
         font-family: "Sanchez";
         font-weight: 700;
-       float: left;
+        float: left;
     }
 
     nav button {
@@ -126,6 +137,7 @@
         border: 1px solid black;
         padding: 5px;
     }
+
     .spotlight2 {
         font-family: "Sanchez";
         border: 1px solid black;
@@ -133,9 +145,10 @@
         padding: 5px;
         margin: 5px;
     }
-    .spotlight2 img{
+
+    .spotlight2 img {
         width: 150px;
-    
+
     }
 
     .spotlight3 {
@@ -170,10 +183,10 @@
 
     nav {
         text-align: right;
-      
+
     }
 
- #lastModified {
+    #lastModified {
         color: black;
         font-family: "Sanchez";
         text-align: center;
@@ -183,120 +196,129 @@
         padding: 0.5rem;
     }
 
-#hamburgerbtn span:nth-child(1) {
-    display: block;
-}
+    #hamburgerbtn span:nth-child(1) {
+        display: block;
+    }
 
-#hamburgerbtn span:nth-child(2) {
-    display: none;
-}
+    #hamburgerbtn span:nth-child(2) {
+        display: none;
+    }
 
-#hamburgerbtn.open span:nth-child(1) {
-    display: none;
-}
+    #hamburgerbtn.open span:nth-child(1) {
+        display: none;
+    }
 
-#hamburgerbtn.open span:nth-child(2) {
-    display: block;
-}
+    #hamburgerbtn.open span:nth-child(2) {
+        display: block;
+    }
 
-.list .not-list {
-	display: none;
-}
-.list {
-	display: flex;
-	flex-direction: column;
-}
-.list section {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
-	margin: 0;
-	padding: 0.25rem;
-}
-.list section:nth-child(even) {
-	background-color: #bbb;
-}
+    .list .not-list {
+        display: none;
+    }
 
-/*----form----*/
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
 
-form {
-    text-align: left;
-    
-}
-form p {
-    color: white;
-    padding: 5px;
-}
+    .list section {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        margin: 0;
+        padding: 0.25rem;
+    }
 
-form fieldset {
-    margin: 2rem 0;
-    border: 2px solid white;
-    border-radius: 10px;
-    padding: 1.0rem 2%;
-    background-color: #14274E;
-}
-form legend {
-    font-size: large;
-    color: white;
-    margin: 0 1rem;
-    padding: 0.5rem;
-}
+    .list section:nth-child(even) {
+        background-color: #bbb;
+    }
 
-form label.top, form div {
-    display: block;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color:  white;
-    font-size: 1rem;
-}
+    /*----form----*/
 
-form label.top input {
-    display: block;
-    font-size: 1rem;
-    border: solid 2px black;
-    border-radius: 4px;
-    padding: .75rem;
-    color: black;
-    width: 100%;
-    max-width: 20rem;
-    background-color: #d3d0d0;
-}
-form label.ml {
-    display: block;
-    padding: .75rem 0;
-    color: white;
-}
+    form {
+        text-align: left;
 
-form input.submitBtn {
-    border: 3px solid black;
-    background-color: #cccaca;
-    color: black;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
+    }
 
-}
+    form p {
+        color: white;
+        padding: 5px;
+    }
 
-form label.top input:required {
-    border-left: rgb(133, 31, 31) solid 6px;
-}
+    form fieldset {
+        margin: 2rem 0;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 1.0rem 2%;
+        background-color: #14274E;
+    }
 
-form label.top input:required:valid {
-    border-left: rgb(17, 66, 17) solid 6px;
-}
+    form legend {
+        font-size: large;
+        color: white;
+        margin: 0 1rem;
+        padding: 0.5rem;
+    }
 
-#business {
-    margin: 10px;
-}
-/*--help from Justine norman example*/
-#membership {
-    display: grid;
-    grid-template-columns: 1fr 1fr 3fr;
-}
-#calendar {
-    display: none;
-}
+    form label.top,
+    form div {
+        display: block;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: white;
+        font-size: 1rem;
+    }
+
+    form label.top input {
+        display: block;
+        font-size: 1rem;
+        border: solid 2px black;
+        border-radius: 4px;
+        padding: .75rem;
+        color: black;
+        width: 100%;
+        max-width: 20rem;
+        background-color: #d3d0d0;
+    }
+
+    form label.ml {
+        display: block;
+        padding: .75rem 0;
+        color: white;
+    }
+
+    form input.submitBtn {
+        border: 3px solid black;
+        background-color: #cccaca;
+        color: black;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+        max-width: 20rem;
+
+    }
+
+    form label.top input:required {
+        border-left: rgb(133, 31, 31) solid 6px;
+    }
+
+    form label.top input:required:valid {
+        border-left: rgb(17, 66, 17) solid 6px;
+    }
+
+    #business {
+        margin: 10px;
+    }
+
+    /*--help from Justine norman example*/
+    #membership {
+        display: grid;
+        grid-template-columns: 1fr 1fr 3fr;
+    }
+
+    #calendar {
+        display: none;
+    }
 
 
 
