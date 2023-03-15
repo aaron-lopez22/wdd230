@@ -369,6 +369,9 @@
         display: none;
     }
 
-
+    .description {
+        display: grid;
+        color: white;
+    }
 
 }

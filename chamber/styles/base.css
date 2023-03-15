@@ -406,3 +406,7 @@ form label.top input:required:valid {
 #business {
     margin: 10px;
 }
+.description {
+    display: grid;
+    color: white;
+}
