@@ -1,0 +1,24 @@
+body {
+    align-self: center;
+    display: grid;
+    text-align: center;
+    background-color: lightcyan;
+
+
+}
+
+body h1 {
+    justify-self: center;
+    max-width: 750px;
+    padding: 25px;
+    background-color: black;
+    color: antiquewhite;
+}
+body p {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+img {
+    width: 150px;
+
+}
