@@ -40,7 +40,13 @@
         <div class="banner"></div>
         <div class="left-column">
             <div class="Event"><h1>Gathering at the Park!</h1><h3>Latest meet and greet is happening this Tuesday</h3></div>
-            <div class="Weather"><h1>Weather</h1><h2>Light Showers</h2><img src="images/1530390_weather_clouds_cloudy_rain_sunny_icon.png" alt="weather"><p>Wind Chill:</p> <span id="wind-chill"></span><p>Wind Speed:<span class="wind-speed"></p></div>
+            <div class="Weather">
+                <p>The current temperature in Salt Lake City, Utah is <span id="current-temp"></span> &deg;F</p>
+                <p>Wind Speed is <span id='wind-speed'></span></p>
+                <figure>
+                    <img src="" alt="" id="weather-icon" />
+                    <figcaption></figcaption>
+                  </figure></div>
             <div class="Join">Join</div>
         </div>
         <div class="mid-column">
@@ -87,6 +93,7 @@
             </div>
         </div>
     </footer>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 
