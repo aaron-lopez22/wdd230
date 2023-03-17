@@ -327,6 +327,13 @@ footer {
     background-color: #bbb;
 }
 
+.contactinfo {
+    max-width: 400px;
+    padding: 50px;
+    color: black;
+    text-align: center;
+    background-color: #cccaca;
+}
 /*----form----*/
 
 form {
