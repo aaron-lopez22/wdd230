@@ -22,7 +22,7 @@ async function apiFetch() {
   }
   
   apiFetch();
-
+/// had lots of help for windchill and changing my formula by looking at ryan Manthey another student formula and code.
   function displayResults(weatherData) {
     const currentTemp = parseFloat(weatherData.main.temp.toFixed(0));
     const windSpeed = parseFloat(weatherData.wind.speed.toFixed(2));
