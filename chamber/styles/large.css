@@ -11,7 +11,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         text-align: center;
-        background-color: #cccaca;
+        background-color: #EBE6E1;
         color: black;
     }
 
@@ -55,7 +55,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         text-align: center;
-        background-color: #bbb;
+        background-color: #EBE6E1;
     }
 
     .banner {
@@ -179,7 +179,7 @@
     .main-footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        background-color: #bbb;
+        background-color: #EBE6E1;
         color: black;
     }
 
@@ -337,7 +337,7 @@
 
     form input.submitBtn {
         border: 3px solid black;
-        background-color: #cccaca;
+        background-color: #EBE6E1;
         color: black;
         border-radius: 1rem;
         padding: .75rem 1.5rem;
