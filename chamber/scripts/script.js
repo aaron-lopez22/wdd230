@@ -14,7 +14,7 @@ localStorage.setItem("visits-ls", numVisits);
 
 document.querySelector(
 	"#lastModified"
-).textContent = `Last Modification: ${document.lastModified}`;
+).textContent = `Last Modification: ${document.lastModified} ©️Aaron Lopez ${new Date().getFullYear()}`;
 
 
 function toggleMenu(){
