@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Ubuntu&display=swap');
+
+
+body {
+ text-align: center;
+ background-color: #E39B02;
+ 
+}
+
+
+footer{
+    margin-top: 200px;
+    padding: 50px 50px;
+    background-color: black;
+    color: white;
+}
+
+#logo {
+    max-width: 150px;
+}
+
+#content {
+    max-width: 1600px;
+   margin: 0% auto;
+    background-color: azure;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    
+}
+header a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    place-self: center;
+    text-align: center;
+    color: #f8f7f7;
+    padding: 25px;
+    margin: 10px;
+    background-color: black;
+}
+header a:hover{
+    background-color: #E39B02;
+    color: black;
+}
+#logo {
+    margin: 0px;
+}
+img {
+    max-width: 250px;
+}
+#site {
+    margin: 75px;
+}
+.wireframe {
+    max-width: 500px;
+}
+#wire-frame-page {
+    display: grid;
+    justify-content: center;
+}
+#harvest {
+    background-color: #E39B02;
+}
+#black {
+    color: white;
+    background-color: black;
+}
+#seasalt {
+    background-color: #F8F7F7;
+}
+#dim-gray {
+    background-color: #6A6A69;
+}
+
+#sandy-brown {
+    background-color: #F69447;
+}
+
+#kobicha {
+    background-color: #693E21;
+}
+#harvest, #black, #seasalt, #kobicha, #sandy-brown, #dim-gray {
+    margin: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 50px;
+}
+#alkatra {
+    font-family: 'Alkatra';
+    font-size: 2.5rem;
+}
+#ubuntu {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+}
