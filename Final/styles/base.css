@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Ubuntu&display=swap');
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    margin: 0px;
+    padding: 2px;
+    background-color: white;
+    border-bottom: 5px solid #693E21;
+    align-items: center;
+    font-family: "Alkatra";
+}
+
+#menu {
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+#menu a {
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 black;
+    color: black;
+    margin: 0 -.25rem;
+    padding: 0 100px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.social img {
+    max-width: 10%;
+    float: right;
+}
+
+#logo img {
+    max-width: 100px;
+    float: left;
+}
+
+#menu a:hover {
+    box-shadow: inset 200px 0 0 0 #F69447;
+    color: black;
+}
+
+main {
+    display: grid;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: black;
+}
+
+body {
+    background-color: #F69447;
+    text-align: center;
+}
+
+body p {
+    font-family: "Ubuntu";
+}
+
+#orange-falling {
+    max-height: 500px;
+    max-width: 100%;
+
+}
+
+button {
+    font-size: 1.5rem;
+    font-family: "Alkatra";
+    max-width: 200px;
+    max-height: 200px;
+    grid-column: 2/3;
+    background-color: #F69447;
+    border: 3px solid White;
+    margin: 125px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: white;
+    border: 3px solid #F69447;
+}
+
+.top {
+    align-self: center;
+    font-family: "Alkatra";
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: black;
+}
+
+footer {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Ubuntu";
+    border-top: 5px solid #693E21;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+footer img {
+    max-width: 150px;
+    float: left;
+    align-self: center;
+}
+
+#lastModified {
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+    border-top: 3px solid black;
+    padding: 5px;
+    grid-column: 1/3;
+    background-color: #693E21;
+}
+
+iframe {
+    max-width: 200px;
+    max-height: 200px;
+
+}
+
+.mid img {
+    max-width: 500px;
+    float: left;
+    padding: 40px;
+    background-color: black;
+
+}
+
+footer p {
+    grid-column: 1/3;
+    font-weight: 900;
+}
+.mid p {
+    font-family: "Ubuntu";
+    text-align: center;
+    padding: 25px;
+    padding-left: 600px;
+    font-size: 2.5rem;
+    background-color: black;
+    color: white;
+   
+}
+.mid {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+#fruit {
+    background-color: black;
+    justify-self: center;
+    max-width: 100%;
+    max-height: 800px;
+}
+
+.weather img {
+    max-height: 800px;
+    float: left;
+}
+.weather {
+    color: white;
+    font-family: "Ubuntu";
+}
+
+.card {
+    margin: 15px;
+    border: 3px solid #F69447;
+    padding: 15px;
+    float: right;
+    max-width: 800px;
+    font-family: "Ubuntu";
+    font-weight: 800;
+    font-size: 1.8rem;
+    background-color: white;
+    color: black;
+}
+.card img {
+    width: 150px;
+}
