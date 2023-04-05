@@ -84,7 +84,7 @@ button:hover {
 .top {
     align-self: center;
     font-family: "Alkatra";
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: white;
@@ -135,6 +135,7 @@ footer p {
     grid-column: 1/3;
     font-weight: 900;
 }
+
 .mid p {
     font-family: "Ubuntu";
     text-align: center;
@@ -143,13 +144,15 @@ footer p {
     font-size: 2.5rem;
     background-color: black;
     color: white;
-   
+
 }
+
 .mid {
     color: white;
     background-color: black;
     text-align: center;
 }
+
 #fruit {
     background-color: black;
     justify-self: center;
@@ -161,6 +164,7 @@ footer p {
     max-height: 800px;
     float: left;
 }
+
 .weather {
     color: white;
     font-family: "Ubuntu";
@@ -178,6 +182,73 @@ footer p {
     background-color: white;
     color: black;
 }
+
 .card img {
     width: 150px;
+}
+
+.mid h1 {
+    font-size: 2.5rem;
+    font-family: "Alkatra";
+}
+
+form {
+    color: black;
+    padding: 10px;
+    background-color: white;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 1.2rem;
+    background-color: black;
+
+}
+
+form legend {
+    font-size: 1.5rem;
+    font-family: "Alkatra";
+    color: black;
+    padding: 10px;
+}
+
+form fieldset {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 5px solid #F69447;
+    color: white;
+    background-color: white;
+    max-width: 85%;
+}
+
+form label {
+    padding: 1.2rem;
+
+}
+
+.drink-form {
+    padding: 1.2rem 0;
+    font-family: "Ubuntu";
+}
+
+form label.drink-form input,
+textarea, select {
+    padding: 10px;
+    display: block;
+    margin: .8rem;
+    border: 5px solid #F69447;
+}
+form label.drink-form select {
+    background-color: white;
+}
+
+form label.drink-form input:required {
+    border-left: rgb(197, 46, 46) solid 8px;
+}
+
+form label.drink-form input:required:valid {
+    border-left: rgb(37, 143, 37) solid 8px;
 }
