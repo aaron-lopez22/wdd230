@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Ubuntu&display=swap');
 
-@media only screen and (min-width: 64rem) {
-
+@media only screen and (min-width: 32rem) {
+    
 header {
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
     margin: 0px;
     padding: 2px;
     background-color: white;
@@ -46,8 +45,6 @@ header {
 main {
     display: grid;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
     background-color: black;
 }
 
@@ -65,18 +62,15 @@ body p {
     max-width: 100%;
 
 }
-button a {
-    text-decoration: none;
-}
+
 button {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Alkatra";
     max-width: 200px;
     max-height: 200px;
-    grid-column: 2/3;
     background-color: #F69447;
     border: 3px solid White;
-    margin: 125px;
+
     padding: 5px;
 }
 
@@ -88,9 +82,8 @@ button:hover {
 .top {
     align-self: center;
     font-family: "Alkatra";
-    font-size: 1.8rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    font-size: 1.5rem;
+   
     color: white;
     background-color: black;
 }
@@ -106,7 +99,7 @@ footer {
 }
 
 footer img {
-    max-width: 150px;
+    max-width: 50%;
     float: left;
     align-self: center;
 }
@@ -128,7 +121,7 @@ iframe {
 }
 
 .mid img {
-    max-width: 500px;
+    max-width: 250px;
     float: left;
     padding: 40px;
     background-color: black;
@@ -143,9 +136,7 @@ footer p {
 .mid p {
     font-family: "Ubuntu";
     text-align: center;
-    padding: 25px;
-    padding-left: 600px;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     background-color: black;
     color: white;
 
@@ -165,8 +156,8 @@ footer p {
 }
 
 .weather img {
-    max-width: 1200px;
-
+    max-height: 500px;
+    float: left;
 }
 
 .weather {
@@ -175,14 +166,13 @@ footer p {
 }
 
 .card {
-    margin: 15px;
     border: 3px solid #F69447;
     padding: 15px;
     float: right;
-    max-width: 800px;
+    max-width: 500px;
     font-family: "Ubuntu";
     font-weight: 800;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     background-color: white;
     color: black;
 }
@@ -192,7 +182,7 @@ footer p {
 }
 
 .mid h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: "Alkatra";
 }
 
@@ -259,11 +249,10 @@ form label.drink-form input:required:valid {
 form button {margin: 5%;}
 
 .about {
-
+    display: block;
     color: white;
-    font-size: 1.2rem;
-    padding: 15px;
-    max-width: 70%;
+    font-size: 1.0rem;
+    max-width: 50%;
 
 }
 .about img{
@@ -279,4 +268,8 @@ form button {margin: 5%;}
 .about p {
     font-family: "Ubuntu";
 }
+button a {
+    text-decoration: none;
+}
+
 }
