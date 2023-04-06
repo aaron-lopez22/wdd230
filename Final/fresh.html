@@ -28,19 +28,20 @@
             </div>
         </header>
     <main>
-        <form action="get" action="">
+        <form>
         <h1>Fill out the form below and make your own special drink!</h1>
-        
         <fieldset>
-            <legend>Fruit drinks</legend>
-            <label class="drink-form">First Name*<input type="text" name="fname" required></label>
-            <label class="drink-form">Last Name*<input type="text" name="lname" required></label>
-            <label class="drink-form">Phone*<input type="tel" name="phone" placeholder="(123)-555-1234" required></label>
-            <label class="drink-form">Email* <input type="email" name="email" placeholder="email@gmail.com" required></label>
-            <label class="drink-form">Fruit<select name="fruits" id="fruit"></select></label>
-            <label class="drink-form">Fruit<select name="fruits" id="fruit"></select></label>
-            <label class="drink-form">Fruit<select name="fruits" id="fruit"></select></label>
+            <legend>Fruit Drinks</legend>
+            <label class="drink-form">First Name*<input type="text" id="first-name" name="fname" required></label>
+            <label class="drink-form">Last Name*<input type="text" id="last-name" name="lname" required></label>
+            <label class="drink-form">Phone*<input type="tel" id="phone" name="phone" placeholder="(123)-555-1234" required></label>
+            <label class="drink-form">Email* <input type="email" id="email" name="email" placeholder="email@gmail.com" required></label>
+            <label class="drink-form">Fruit<select name="fruits" id="fruit1"></select></label>
+            <label class="drink-form">Fruit<select name="fruits" id="fruit2"></select></label>
+            <label class="drink-form">Fruit<select name="fruits" id="fruit3"></select></label>
             <label class="drink-form">Special Instructions<textarea name="businessdescription" id="business" cols="30" rows="10"></textarea></label>
+            <button id="form-button" onclick="formDrink()">Submit</button><br/>
+            <span id="result"></span>
         </fieldset>
     </form>
     </main>
@@ -59,6 +60,7 @@
         <div id="lastModified"></div>
     </footer>
 </div>
+<script src="scripts/json.js"></script>
 <script src="scripts/script.js"></script>
 </body>
 

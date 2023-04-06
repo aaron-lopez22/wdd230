@@ -252,3 +252,26 @@ form label.drink-form input:required {
 form label.drink-form input:required:valid {
     border-left: rgb(37, 143, 37) solid 8px;
 }
+form button {margin: 5%;}
+
+.about {
+    display: flexbox;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px;
+    max-width: 70%;
+
+}
+.about img{
+   justify-self: center;
+    max-width: 50%;
+}
+
+.about h1 {
+    font-family: "Alkatra";
+
+}
+
+.about p {
+    font-family: "Ubuntu";
+}
